@@ -20,7 +20,7 @@ Get-NetFirewallProfile | Format-Table Name, Enabled
 New-NetFirewallRule -DisplayName "<name displayed>" -Direction <Inbound/Outbound> -LocalPort <Port#> -Protocol <protocol abbreviation> -Action <Block/Allow>
 ```
 
-# SSH Setup and Confiuration
+# SSH Setup and Configuration
 ## Start SSH Service
 ```
 Start-Service sshd
